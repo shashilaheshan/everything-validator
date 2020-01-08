@@ -3,7 +3,7 @@ Email,Password,Letters,Digits,Birth day,String,Phone number,URL,Json,IP,Distance
 
 USAGE 
 
-let validator = require("./index");
+let validator = require('everything-validator')
 
 console.log(validator.isEmail("shashi@m.com")); 
 // validate standard email type and return true
